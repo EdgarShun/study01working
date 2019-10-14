@@ -1,0 +1,9 @@
+#ABNF 1.0 UTF-8;
+language zh-CN; 
+mode voice;
+
+root $main;
+$main = [$call] [我] [$want] 打电话给 $name;
+$want = 想|要;
+$call = 老王老王;
+$name = 张三|李四|张海洋;

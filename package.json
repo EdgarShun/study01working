@@ -1,0 +1,13 @@
+{
+  "name": "study01",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "yarn react-native start",
+    "bundle-android": "react-native bundle --platform android --entry-file index.android.js --bundle-output app/src/main/assets/index.android.bundle --dev false"
+  },
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.1"
+  }
+}
